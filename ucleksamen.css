@@ -1,0 +1,440 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0B2027;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.logo {
+    width: 40px;
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+li, a, button {
+    font-family: "Unica One", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+display: inline-block;
+padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #ffffff
+}
+
+button {
+    margin-left: 10px;
+    padding: 0px 0px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding: 20px;
+}
+
+button:hover {
+background-color: rgb(62, 54, 54);
+
+}
+
+.wrapper {
+width: 100%;
+} 
+
+.img-banner {
+    display: inline-block; 
+}
+
+.img-info {
+    width: auto;
+}
+
+.img-info h2 {
+    padding: 0px 0px 0px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0.9px;
+}
+
+
+
+.img-info p {
+    padding: 30px 30px 20px;
+    color: #111;
+    width: auto;
+    text-align: center;
+    color: #000;
+font-family: "Urbanist", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0.32px;
+}
+
+.img-banner {
+    width: 100%;
+}
+
+
+.image-box2 {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Creates space between the images */
+    align-items: center; /* Aligns images vertically */
+    padding: 10px; /* Adds padding inside the box */
+    background-color: #000000; /* Background color of the box */
+    border: 2px solid #000000; /* Optional border for the box */
+    border-radius: 0px; /* Rounded corners for the box */
+    max-width: auto; /* Optional: limits the width of the box */
+    margin: 10px auto; /* Centers the box on the page */
+}
+.image-box2 img {
+    max-width: 48%; /* Limits the width of each image */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px; /* Optional: rounds the corners of the images */
+    box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to the images */
+}
+
+.img-marketing2 {
+    width: 50%;
+    float: middle;
+}
+
+.img-marketing3 {
+    width: 50%;
+    float: right;
+}
+
+
+.marketing-header h2 {
+    padding: 30px 30px 10px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+
+.marketing-info p {
+    padding: 30px 30px 20px;
+    color: #111;
+    line-height: 33px;
+    width: auto;
+    text-align: center;
+    color: #000;
+
+text-align: center;
+font-family: "Urbanist", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.32px;
+}
+
+.produktbilleder h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+.img-produktbillede1 {
+    width: 100%
+}
+
+.img-produktbillede2 {
+    width: 100%
+}
+
+.img-produktbillede3 {
+    width: 100%
+}
+
+.img-produktbillede4 {
+    width: 100%
+}
+
+.img-produktbillede5 {
+    width: 100%
+}
+
+.img-produktbillede6 {
+    width: 100%
+}
+
+.produktbilleder2 p {
+    padding: 30px 30px 20px;
+    color: #111;
+    line-height: 19px;
+    width: auto;
+    text-align: center;
+    color: #000;
+
+text-align: center;
+font-family: "Urbanist", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0.32px;
+}
+
+.aftereffects h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+.image-box {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Creates space between the images */
+    align-items: center; /* Aligns images vertically */
+    padding: 30px; /* Adds padding inside the box */
+    background-color: #000000; /* Background color of the box */
+    border: 2px solid #000000; /* Optional border for the box */
+    border-radius: 0px; /* Rounded corners for the box */
+    max-width: auto; /* Optional: limits the width of the box */
+    margin: 20px auto; /* Centers the box on the page */
+}
+.image-box img {
+    max-width: 48%; /* Limits the width of each image */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px; /* Optional: rounds the corners of the images */
+    box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to the images */
+}
+
+.hjemmesidedesign h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+.img-hjemmesidedesignbillede {
+    width: 100%
+}
+
+.overskrift h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+#kontakt h2 {
+    padding: 0px 10px;
+    background: #ffffff;
+    font-size: 20px;
+    font-family: "unica one", sans-serif;
+    color: #235e72;
+    font-weight: 700;
+}
+#kontakt p {
+padding: 0px 10px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.kontakt-venstre {
+    flex-basis: 35%;
+}
+.kontakt-højre form {
+    flex-basis: 90%;
+    padding-right: 10px;
+    width: 90%;
+}
+.kontakt-venstre p {
+    margin-top: 30px;
+    font-family: "urbanist", sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-right: 15px;
+
+}
+form input, form textarea {
+    width: 95%;
+    border: 0px;
+    outline: none;
+    background: #cdcdcd;
+    padding: 18px;
+    margin: 13px 12px;
+    color: #E8E8E3;
+    font-size: 14px;
+    font-family: "urbanist", sans-serif;
+    border-radius: 6px;
+}
+.indsend{
+    background: #cecece;
+    padding: 10px 55px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 60px;
+
+}
+
+.copyright {
+    font-family: "Urbanist", sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+    .img-banner {
+        display: block;
+        width: 100%;
+         padding-bottom: 30px;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0 auto; 
+        }
+        
+        .img-info h2 {
+            padding: 0px 30px 10px;
+            font-size: 40px;
+        }
+        
+        .img-info p {
+            padding: 30px 30px 20px;
+            font-size: 24px;
+            color: #111;
+            line-height: 33px;
+        }
+        .image-box2 {
+            display: flex; /* Flexbox layout */
+            justify-content: space-evenly; /* Creates space between the images */
+            flex-direction: row;
+            align-items: center; /* Aligns images vertically */
+            padding: 10px; /* Adds padding inside the box */
+            background-color: #000000; /* Background color of the box */
+            border: 2px solid #000000; /* Optional border for the box */
+            border-radius: 0px; /* Rounded corners for the box */
+            max-width: auto; /* Optional: limits the width of the box */
+            margin: 10px auto; /* Centers the box on the page */
+        }
+        .image-box2 img {
+            max-width: 33%; /* Limits the width of each image */
+            padding: 10px;
+            height: 25rem; /* Maintains aspect ratio */
+            border-radius: 5px; /* Optional: rounds the corners of the images */
+            box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to the images */
+        }   
+        .marketing-info p {
+            padding: 30px 30px 20px;
+            font-size: 24px;
+            color: #111;
+            line-height: 33px;
+        }
+
+        .produktbilleder h2 {
+            padding: 0px 30px 10px;
+            font-size: 40px;
+        }
+        .produktbilleder2 p {
+            padding: 30px 30px 20px;
+            font-size: 26px;
+            color: #111;
+            line-height: 33px;
+            color: #000;
+ 
+        }  
+        .aftereffects h2 {
+            padding: 20px 30px 10px;
+            font-size: 40px;
+        }
+        .hjemmesidedesign h2 {
+            padding: 20px 30px 10px;
+            font-size: 40px;
+        }
+        #kontakt h2 {
+            font-size: 40px;
+    
+        }
+
+        .produktbillederbox {
+            display: flex; /* Flexbox layout */
+            justify-content: center; /* Creates space between the images */
+            align-items: baseline; /* Aligns images vertically */
+            padding: 0px; /* Adds padding inside the box */
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: #ffffff; /* Background color of the box */
+            border: 1px solid #fffdfd; /* Optional border for the box */
+            border-radius: 8px; /* Rounded corners for the box */
+            max-width: auto; /* Optional: limits the width of the box */
+            margin: 0px auto; /* Centers the box on the page */
+        }
+        .produktbillederbox img {
+            max-width: 40%; /* Limits the width of each image */
+            height: auto; /* Maintains aspect ratio */
+            border-radius: 5px; /* Optional: rounds the corners of the images */
+            padding: 5px;
+        }
+        
+       
+}
+
+@media only screen and (min-width: 1000px) {
+    
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
