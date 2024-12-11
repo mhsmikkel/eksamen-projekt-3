@@ -1,6 +1,10 @@
+body {
+background-color: #F0EFEC;
+}
+
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #0B2027;
     color: #ffffff;
     padding: 1rem 0;
@@ -8,14 +12,17 @@ header {
 
 .logo {
     width: 40px;
+    height: 3rem;
     margin-right: auto;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
     cursor: pointer;
+    background-color: #0B2027;
 }
 
 li, a, button {
     font-family: "Unica One", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     color: #ffffff;
 }
@@ -39,17 +46,19 @@ padding: 0px 20px;
 
 button {
     margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 9px;
     padding: 0px 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: #0B2027;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    padding: 20px;
+    padding: 10px;
 }
 
 button:hover {
-background-color: rgb(62, 54, 54);
+background-color: rgb(0, 0, 0);
 
 }
 
@@ -275,7 +284,7 @@ letter-spacing: 0.9px;
 
 #kontakt h2 {
     padding: 0px 10px;
-    background: #ffffff;
+    background: #F0EFEC;
     font-size: 20px;
     font-family: "unica one", sans-serif;
     color: #235e72;
@@ -320,7 +329,7 @@ form input, form textarea {
     border-radius: 6px;
 }
 .indsend{
-    background: #cecece;
+    background: #0B2027;
     padding: 10px 55px;
     font-size: 18px;
     margin-top: 10px;
@@ -330,6 +339,54 @@ form input, form textarea {
 
 .copyright {
     font-family: "Urbanist", sans-serif;
+}
+
+
+.image-box3 img{
+    width: 30%;
+}
+
+.image-box3 {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Creates space between the images */
+    align-items: center; /* Aligns images vertically */
+    padding: 10px; /* Adds padding inside the box */
+    background-color: #ffffff; /* Background color of the box */
+    border-radius: 0px; /* Rounded corners for the box */
+    max-width: auto; /* Optional: limits the width of the box */
+    margin: 10px auto; /* Centers the box on the page */
+}
+
+.image-box4 img{
+    width: 20%;
+}
+
+.image-box4 {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Creates space between the images */
+    align-items: center; /* Aligns images vertically */
+    padding: 10px; /* Adds padding inside the box */
+    background-color: #000000; /* Background color of the box */
+    border-radius: 0px; /* Rounded corners for the box */
+    max-width: auto; /* Optional: limits the width of the box */
+    margin: 10px auto; /* Centers the box on the page */
+}
+
+.image-box4-info p {
+    padding: 30px 30px 20px;
+    color: #111;
+    line-height: 19px;
+    width: auto;
+    text-align: center;
+    color: #000;
+
+text-align: center;
+font-family: "Urbanist", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0.32px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -425,7 +482,22 @@ form input, form textarea {
             padding: 5px;
         }
         
-       
+        .image-box4-info p {
+            padding: 30px 30px 20px;
+            color: #111;
+            line-height: 19px;
+            width: auto;
+            text-align: center;
+            color: #000;
+        
+        text-align: center;
+        font-family: "Urbanist", sans-serif;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 33px;
+        letter-spacing: 0.32px;
+        }
 }
 
 @media only screen and (min-width: 1000px) {
