@@ -66,26 +66,26 @@ background-color: rgb(0, 0, 0);
 width: 100%;
 } 
 
-.img-banner {
+.img__banner {
     display: inline-block; 
 }
 
-.img-banner {
+.img__banner {
     width: 100%;
 }
 
-.img-sektion {
+.img__sektion {
     display: inline-block;
     width: 100%;
     margin-top: -4px;
 
 }
 
-.img-info {
+.introduktion__info {
     width: auto;
 }
 
-.img-info h2 {
+.introduktion__info h2 {
     padding: 0px 0px 0px;
     font-family: "Unica One", sans-serif;
     line-height: 30px;
@@ -100,7 +100,7 @@ letter-spacing: 0.9px;
 
 
 
-.img-info p {
+.introduktion__info p {
     padding: 30px 30px 20px;
     color: #111;
     width: auto;
@@ -117,7 +117,7 @@ letter-spacing: 0.32px;
 
 
 
-.image-box2 {
+.marketing__box {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -128,7 +128,7 @@ letter-spacing: 0.32px;
     max-width: auto; 
     margin: 10px auto; 
 }
-.image-box2 img {
+.marketing__box img {
     max-width: 48%; 
     height: auto; 
     border-radius: 5px; 
@@ -146,7 +146,7 @@ letter-spacing: 0.32px;
 }
 
 
-.marketing-header h2 {
+.marketing__header h2 {
     padding: 30px 30px 10px;
     font-family: "Unica One", sans-serif;
     line-height: 30px;
@@ -160,7 +160,7 @@ letter-spacing: 0.9px;
 }
 
 
-.marketing-info p {
+.marketing__info p {
     padding: 30px 30px 20px;
     color: #111;
     line-height: 33px;
@@ -176,7 +176,7 @@ font-weight: 500;
 letter-spacing: 0.32px;
 }
 
-.produktbilleder h2 {
+.produktbilleder__header h2 {
     padding: 30px 30px 20px;
     font-family: "Unica One", sans-serif;
     line-height: 30px;
@@ -213,14 +213,17 @@ letter-spacing: 0.9px;
     width: 100%
 }
 
-.produktbilleder2 p {
+.hjemmesidedesign__img {
+    width: 100%
+}
+
+.produktbilleder__info p {
     padding: 30px 30px 20px;
     color: #111;
     line-height: 19px;
     width: auto;
     text-align: center;
     color: #000;
-
 text-align: center;
 font-family: "Urbanist", sans-serif;
 font-size: 15px;
@@ -230,7 +233,7 @@ line-height: 33px;
 letter-spacing: 0.32px;
 }
 
-.aftereffects h2 {
+.aftereffects__header h2 {
     padding: 30px 30px 20px;
     font-family: "Unica One", sans-serif;
     line-height: 30px;
@@ -243,7 +246,7 @@ line-height: 26px;
 letter-spacing: 0.9px;
 }
 
-.image-box {
+.aftereffects__box {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
@@ -254,14 +257,14 @@ letter-spacing: 0.9px;
     max-width: auto; 
     margin: 20px auto; 
 }
-.image-box img {
+.aftereffects__box img {
     max-width: 48%; 
     height: auto; 
     border-radius: 5px; 
     box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); 
 }
 
-.hjemmesidedesign h2 {
+.hjemmesidedesign__header h2 {
     padding: 30px 30px 20px;
     font-family: "Unica One", sans-serif;
     line-height: 30px;
@@ -351,26 +354,101 @@ form input, form textarea {
 }
 
 
-.image-box3 img{
+
+
+.hellokitty__header h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+.hellokitty__img {
+    width: 40%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.logodesign__header h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+.logodesign__img {
+    width: 40%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+}
+
+/* OM MIG CSS */ 
+
+.ommig__introduktion__info p {
+    padding: 30px 30px 20px;
+    color: #111;
+    width: auto;
+    text-align: center;
+    color: #000;
+font-family: "Urbanist", sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0.32px;
+}
+
+.ommig__introduktion__info h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+.portræt__box img{
     width: 30%;
 }
 
-.image-box3 {
+.portræt__box {
     display: flex; 
     justify-content: center; 
     align-items: center; 
     padding: 10px; 
-    background-color: #ffffff; 
+    background-color: #F0EFEC; 
     border-radius: 0px; 
     max-width: auto; 
     margin: 10px auto; 
 }
 
-.image-box4 img{
+.roskilde__box img{
     width: 20%;
 }
 
-.image-box4 {
+.roskilde__box {
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -381,7 +459,7 @@ form input, form textarea {
     margin: 10px auto; 
 }
 
-.image-box4-info p {
+.roskilde__box__info p {
     padding: 30px 30px 20px;
     color: #111;
     line-height: 19px;
@@ -398,52 +476,12 @@ line-height: 33px;
 letter-spacing: 0.32px;
 }
 
-.hellokitty h2 {
-    padding: 30px 30px 20px;
-    font-family: "Unica One", sans-serif;
-    line-height: 30px;
-    color: #235E72;
-text-align: center;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0.9px;
-}
 
-.img-hellokitty {
-    width: 40%;
-    justify-content: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 40px;
-}
+/* MEDIA QUERY */ 
 
-.frisk h2 {
-    padding: 30px 30px 20px;
-    font-family: "Unica One", sans-serif;
-    line-height: 30px;
-    color: #235E72;
-text-align: center;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0.9px;
-}
-
-.img-frisk {
-    width: 40%;
-    justify-content: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 70px;
-}
 
 @media only screen and (min-width: 768px) {
-    .img-banner {
+    .img__banner {
         display: block;
         width: 100%;
          padding-bottom: 30px;
@@ -453,18 +491,18 @@ letter-spacing: 0.9px;
         margin: 0 auto; 
         }
         
-        .img-info h2 {
+        .introduktion__info h2 {
             padding: 0px 30px 10px;
             font-size: 40px;
         }
         
-        .img-info p {
+        .introduktion__info p {
             padding: 30px 30px 20px;
             font-size: 24px;
             color: #111;
             line-height: 33px;
         }
-        .image-box2 {
+        .marketing__box {
             display: flex; 
             justify-content: space-evenly; 
             flex-direction: row;
@@ -476,14 +514,14 @@ letter-spacing: 0.9px;
             max-width: auto; 
             margin: 10px auto; 
         }
-        .image-box2 img {
+        .marketing__box img {
             max-width: 33%; 
             padding: 10px;
             height: 25rem; 
             border-radius: 5px; 
             box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); 
         }   
-        .marketing-info p {
+        .marketing__info p {
             padding: 30px 30px 20px;
             font-size: 24px;
             color: #111;
@@ -494,7 +532,7 @@ letter-spacing: 0.9px;
             padding: 0px 30px 10px;
             font-size: 40px;
         }
-        .produktbilleder2 p {
+        .produktbilleder__info p {
             padding: 30px 30px 20px;
             font-size: 26px;
             color: #111;
@@ -506,7 +544,7 @@ letter-spacing: 0.9px;
             padding: 20px 30px 10px;
             font-size: 40px;
         }
-        .hjemmesidedesign h2 {
+        .hjemmesidedesign__header h2 {
             padding: 20px 30px 10px;
             font-size: 40px;
         }
@@ -515,57 +553,42 @@ letter-spacing: 0.9px;
     
         }
 
-        .produktbillederbox {
+        .produktbilleder__box {
             display: flex; 
             justify-content: center; 
             align-items: baseline; 
             padding: 0px; 
             flex-direction: row;
             flex-wrap: wrap;
-            background-color: #ffffff; 
-            border: 1px solid #fffdfd; 
+            background-color: #F0EFEC; 
+            border: 1px solid #F0EFEC; 
             border-radius: 8px; 
             max-width: auto; 
             margin: 0px auto; 
         }
-        .produktbillederbox img {
+        .produktbilleder__box img {
             max-width: 40%; 
             height: auto; 
             border-radius: 5px; 
             padding: 5px;
         }
         
-        .image-box4-info p {
-            padding: 30px 30px 20px;
-            color: #111;
-            line-height: 19px;
-            width: auto;
-            text-align: center;
-            color: #000;
         
-        text-align: center;
-        font-family: "Urbanist", sans-serif;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 33px;
-        letter-spacing: 0.32px;
-        }
 
-        .hellokitty h2 {
+        .hellokitty__header h2 {
             font-size: 40px;
         }
 
         
-        .img-hellokitty {
+        .hellokitty__img {
             width: 30%;
         }
         
-        .frisk h2 {
+        .logodesign__header h2 {
         font-size: 40px;
         }
         
-        .img-frisk {
+        .logodesign__img {
             width: 30%;
             padding-bottom: 100px;
         }
@@ -592,10 +615,21 @@ letter-spacing: 0.9px;
             padding: 5px 20px;
         }
 
-        .img-sektion {
+        .img__sektion {
             display: inline-block;
             width: 100%;
             margin-top: -30px;
+        }
+
+        .ommig__introduktion__info p {
+            padding: 30px 30px 20px;
+            font-size: 24px;
+            color: #111;
+            line-height: 33px;
+        }
+
+        .roskilde__box__info p {
+            font-size: 24px; 
         }
 
 }
