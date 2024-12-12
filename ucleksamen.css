@@ -70,6 +70,17 @@ width: 100%;
     display: inline-block; 
 }
 
+.img-banner {
+    width: 100%;
+}
+
+.img-sektion {
+    display: inline-block;
+    width: 100%;
+    margin-top: -4px;
+
+}
+
 .img-info {
     width: auto;
 }
@@ -103,27 +114,25 @@ line-height: 33px;
 letter-spacing: 0.32px;
 }
 
-.img-banner {
-    width: 100%;
-}
+
 
 
 .image-box2 {
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Creates space between the images */
-    align-items: center; /* Aligns images vertically */
-    padding: 10px; /* Adds padding inside the box */
-    background-color: #000000; /* Background color of the box */
-    border: 2px solid #000000; /* Optional border for the box */
-    border-radius: 0px; /* Rounded corners for the box */
-    max-width: auto; /* Optional: limits the width of the box */
-    margin: 10px auto; /* Centers the box on the page */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+    background-color: #000000; 
+    border: 2px solid #000000; 
+    border-radius: 0px; 
+    max-width: auto; 
+    margin: 10px auto; 
 }
 .image-box2 img {
-    max-width: 48%; /* Limits the width of each image */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 5px; /* Optional: rounds the corners of the images */
-    box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to the images */
+    max-width: 48%; 
+    height: auto; 
+    border-radius: 5px; 
+    box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .img-marketing2 {
@@ -235,21 +244,21 @@ letter-spacing: 0.9px;
 }
 
 .image-box {
-    display: flex; /* Flexbox layout */
-    justify-content: space-between; /* Creates space between the images */
-    align-items: center; /* Aligns images vertically */
-    padding: 30px; /* Adds padding inside the box */
-    background-color: #000000; /* Background color of the box */
-    border: 2px solid #000000; /* Optional border for the box */
-    border-radius: 0px; /* Rounded corners for the box */
-    max-width: auto; /* Optional: limits the width of the box */
-    margin: 20px auto; /* Centers the box on the page */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 30px; 
+    background-color: #000000; 
+    border: 2px solid #000000; 
+    border-radius: 0px; 
+    max-width: auto; 
+    margin: 20px auto; 
 }
 .image-box img {
-    max-width: 48%; /* Limits the width of each image */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 5px; /* Optional: rounds the corners of the images */
-    box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to the images */
+    max-width: 48%; 
+    height: auto; 
+    border-radius: 5px; 
+    box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .hjemmesidedesign h2 {
@@ -347,14 +356,14 @@ form input, form textarea {
 }
 
 .image-box3 {
-    display: flex; /* Flexbox layout */
-    justify-content: center; /* Creates space between the images */
-    align-items: center; /* Aligns images vertically */
-    padding: 10px; /* Adds padding inside the box */
-    background-color: #ffffff; /* Background color of the box */
-    border-radius: 0px; /* Rounded corners for the box */
-    max-width: auto; /* Optional: limits the width of the box */
-    margin: 10px auto; /* Centers the box on the page */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    background-color: #ffffff; 
+    border-radius: 0px; 
+    max-width: auto; 
+    margin: 10px auto; 
 }
 
 .image-box4 img{
@@ -362,14 +371,14 @@ form input, form textarea {
 }
 
 .image-box4 {
-    display: flex; /* Flexbox layout */
-    justify-content: center; /* Creates space between the images */
-    align-items: center; /* Aligns images vertically */
-    padding: 10px; /* Adds padding inside the box */
-    background-color: #000000; /* Background color of the box */
-    border-radius: 0px; /* Rounded corners for the box */
-    max-width: auto; /* Optional: limits the width of the box */
-    margin: 10px auto; /* Centers the box on the page */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    background-color: #000000; 
+    border-radius: 0px; 
+    max-width: auto; 
+    margin: 10px auto; 
 }
 
 .image-box4-info p {
@@ -456,23 +465,23 @@ letter-spacing: 0.9px;
             line-height: 33px;
         }
         .image-box2 {
-            display: flex; /* Flexbox layout */
-            justify-content: space-evenly; /* Creates space between the images */
+            display: flex; 
+            justify-content: space-evenly; 
             flex-direction: row;
-            align-items: center; /* Aligns images vertically */
-            padding: 10px; /* Adds padding inside the box */
-            background-color: #000000; /* Background color of the box */
-            border: 2px solid #000000; /* Optional border for the box */
-            border-radius: 0px; /* Rounded corners for the box */
-            max-width: auto; /* Optional: limits the width of the box */
-            margin: 10px auto; /* Centers the box on the page */
+            align-items: center; 
+            padding: 10px; 
+            background-color: #F0EFEC; 
+            border: 2px solid #F0EFEC; 
+            border-radius: 0px; 
+            max-width: auto; 
+            margin: 10px auto; 
         }
         .image-box2 img {
-            max-width: 33%; /* Limits the width of each image */
+            max-width: 33%; 
             padding: 10px;
-            height: 25rem; /* Maintains aspect ratio */
-            border-radius: 5px; /* Optional: rounds the corners of the images */
-            box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to the images */
+            height: 25rem; 
+            border-radius: 5px; 
+            box-shadow: 3 8px 10px rgba(0, 0, 0, 0.1); 
         }   
         .marketing-info p {
             padding: 30px 30px 20px;
@@ -507,22 +516,22 @@ letter-spacing: 0.9px;
         }
 
         .produktbillederbox {
-            display: flex; /* Flexbox layout */
-            justify-content: center; /* Creates space between the images */
-            align-items: baseline; /* Aligns images vertically */
-            padding: 0px; /* Adds padding inside the box */
+            display: flex; 
+            justify-content: center; 
+            align-items: baseline; 
+            padding: 0px; 
             flex-direction: row;
             flex-wrap: wrap;
-            background-color: #ffffff; /* Background color of the box */
-            border: 1px solid #fffdfd; /* Optional border for the box */
-            border-radius: 8px; /* Rounded corners for the box */
-            max-width: auto; /* Optional: limits the width of the box */
-            margin: 0px auto; /* Centers the box on the page */
+            background-color: #ffffff; 
+            border: 1px solid #fffdfd; 
+            border-radius: 8px; 
+            max-width: auto; 
+            margin: 0px auto; 
         }
         .produktbillederbox img {
-            max-width: 40%; /* Limits the width of each image */
-            height: auto; /* Maintains aspect ratio */
-            border-radius: 5px; /* Optional: rounds the corners of the images */
+            max-width: 40%; 
+            height: auto; 
+            border-radius: 5px; 
             padding: 5px;
         }
         
@@ -581,7 +590,13 @@ letter-spacing: 0.9px;
         .navlinks li {
             display: inline-block;
             padding: 5px 20px;
-            }
+        }
+
+        .img-sektion {
+            display: inline-block;
+            width: 100%;
+            margin-top: -30px;
+        }
 
 }
 
