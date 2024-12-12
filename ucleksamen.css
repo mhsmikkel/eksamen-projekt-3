@@ -33,7 +33,7 @@ li, a, button {
 
 .navlinks li {
 display: inline-block;
-padding: 0px 20px;
+padding: 3px 20px;
 }
 
 .navlinks li a {
@@ -389,6 +389,50 @@ line-height: 33px;
 letter-spacing: 0.32px;
 }
 
+.hellokitty h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+.img-hellokitty {
+    width: 40%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.frisk h2 {
+    padding: 30px 30px 20px;
+    font-family: "Unica One", sans-serif;
+    line-height: 30px;
+    color: #235E72;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.9px;
+}
+
+.img-frisk {
+    width: 40%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 70px;
+}
+
 @media only screen and (min-width: 768px) {
     .img-banner {
         display: block;
@@ -498,7 +542,49 @@ letter-spacing: 0.32px;
         line-height: 33px;
         letter-spacing: 0.32px;
         }
+
+        .hellokitty h2 {
+            font-size: 40px;
+        }
+
+        
+        .img-hellokitty {
+            width: 30%;
+        }
+        
+        .frisk h2 {
+        font-size: 40px;
+        }
+        
+        .img-frisk {
+            width: 30%;
+            padding-bottom: 100px;
+        }
+
+        li, a, button {
+            font-family: "Unica One", sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        .logo {
+            width: 50px;
+            height: 4rem;
+            margin-right: auto;
+            margin-left: 20px;
+            margin-top: 5px;
+            cursor: pointer;
+            background-color: #0B2027;
+        }
+
+        .navlinks li {
+            display: inline-block;
+            padding: 5px 20px;
+            }
+
 }
+
 
 @media only screen and (min-width: 1000px) {
     
